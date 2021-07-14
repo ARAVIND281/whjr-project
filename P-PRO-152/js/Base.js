@@ -5,7 +5,6 @@ AFRAME.registerComponent("base", {
   },
 
   init: function() {
-    // Do something when component first attached.
     this.el.setAttribute("geometry", {
       primitive: "cylinder",
       radius: this.data.radius,
